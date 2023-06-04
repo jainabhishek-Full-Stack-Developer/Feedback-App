@@ -1,0 +1,81 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.bgContainer {
+  background-image: linear-gradient(to right, #ffeeee, #ffc0bb);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: #ffffff;
+  font-family: roboto;
+  height: 60%;
+  width: 80%;
+  max-width: 550px;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  text-align: center;
+}
+.card ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  margin-top: 50px;
+}
+.cardList {
+  list-style: none;
+  padding: 0px 40px;
+}
+.cardList button {
+  background: transparent;
+  border: none;
+  width: 50px;
+  cursor: pointer;
+}
+.cardList img {
+  width: 50px;
+}
+
+.cardList p {
+  text-align: center;
+  padding-top: 8px;
+}
+.cardContainer {
+  background-color: #ffffff;
+  font-family: roboto;
+  height: 60%;
+  width: 80%;
+  max-width: 550px;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.imageCard {
+  width: 50px;
+}
+.cardContainer h1 {
+  font-family: 'Roboto';
+  padding-top: 15px;
+}
+.cardContainer p {
+  font-family: 'Roboto';
+  padding-top: 15px;
+  font-size: 18px;
+  text-align: center;
+}
